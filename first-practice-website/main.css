@@ -1,0 +1,23 @@
+/*color refers to the text color, not the background*/
+
+body {
+	background-color:darkgray;
+	font-size:25px;
+}
+
+h1 {
+	font-size: 30px;
+}
+
+p {
+	color:blue;
+	font-style:italic;
+	font-variant: small-caps;
+	font-family: monospace;
+	font-size: 14px;
+	background-color: lightcyan;
+	border: 20px dashed purple;
+	padding: 15px;
+	text-align: center;
+}
+
