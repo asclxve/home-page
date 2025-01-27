@@ -1,3 +1,30 @@
 body{
-	background-color: mediumseagreen;
+	background-color: #E6E5EB;
+}
+
+h1{
+	color: #430C2D;
+	font-family: Ciutadella;
+	font-size: 60px;
+	font-style: italic;
+}
+
+h2{  
+color: #430C2D;
+	font-family: Ciutadella;
+	font-size: 24px;
+	font-style: italic;
+}
+
+h3{
+	color: #430C2D;
+	font-family: Ciutadella;
+	font-size: 18px;
+	font-family: monospace;
+}
+
+p{
+	color: #430C2D;
+	font-family: Ciutadella;
+	font-size: 14px;
 }
