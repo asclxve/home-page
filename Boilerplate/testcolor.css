@@ -1,0 +1,10 @@
+body{
+	background-color: palevioletred;
+}
+
+img{
+	max-width: 100%;
+}
+
+/*external styles are the least specific application*/
+
