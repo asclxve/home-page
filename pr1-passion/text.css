@@ -1,0 +1,36 @@
+/* #e4b7e5ff, #63458aff, #e8f1f2ff;
+*/
+
+
+.flex-container{
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: flex-end;
+	align-items: baseline;
+	align-content: center;
+
+}
+
+
+.button{
+	box-shadow:inset 0px 1px 0px 0px #efdcfb;
+	background:linear-gradient(to bottom, #dfbdfa 5%, #bc80ea 100%);
+	background-color:#dfbdfa;
+	border-radius:6px;
+	border:1px solid #c584f3;
+	display:inline-block;
+	cursor:pointer;
+	color:#63458aff;
+	font-family: Ciutadella;
+	font-size: 50px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #8c32d6;
+	margin: 25px auto;
+	display: flex;
+
+}
+
+
+

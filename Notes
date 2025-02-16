@@ -6,3 +6,54 @@ Notes
 --royal-purple: #7e5a9bff;
 --ultra-violet: #63458aff;
 --veronica: #9a48d0ff;
+
+
+/* CSS HEX */
+--prussian-blue: #13293dff;
+--lapis-lazuli: #006494ff;
+--cerulean: #247ba0ff;
+--celestial-blue: #1b98e0ff;
+--alice-blue: #e8f1f2ff;
+
+/* CSS HEX */
+--russian-violet: #441151ff;
+--plum: #883677ff;
+--french-mauve: #ca61c3ff;
+--persian-pink: #ee85b5ff;
+--coral-pink: #ff958cff;
+
+body{
+	background: linear-gradient(-45deg, #883677ff, #ca61c3ff, #ee85b5ff, #7e5a9bff);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    height: 100vh;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+ 
+    50% {
+        background-position: 100% 50%;
+    }
+ 
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+/*.h1{
+    color: #441151ff;
+    font-family: Ciutadella;
+    font-size: 60px;
+    font-style: italic;
+}
+
+
+p{
+    color: #441151ff;
+    font-family: Ciutadella;
+    font-size: 14px;
+}
+
