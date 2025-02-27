@@ -4,7 +4,7 @@ body{
 }
 
 img{
-	block-size: 75%;
+	width:80%;
 
 }
 
@@ -13,7 +13,7 @@ img{
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
-	column-gap: 50px;
+	column-gap: 75px;
 }
 
 .item{
@@ -24,15 +24,33 @@ h1{
 	color: powderblue;
 	writing-mode: vertical-rl;
 	text-orientation: upright;
-	font-size: 75px;
-	margin: 3px;
+	font-size: 100px;
+	margin: 0;
 }
 
 h2{
 	color: #C71585;
 	writing-mode: vertical-rl;
 	text-orientation: upright;
-	font-size: 75px;
-	margin: 3px;
+	font-size: 100px;
+	margin: 0;
 }
 
+.float-container{
+    position: relative;
+    animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
