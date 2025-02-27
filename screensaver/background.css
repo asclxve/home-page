@@ -1,0 +1,38 @@
+body{
+	background: black;
+	font-family: Arcane Nine;
+}
+
+img{
+	block-size: 75%;
+
+}
+
+.container{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	column-gap: 50px;
+}
+
+.item{
+	align-self: flex-start|center|flex-end;
+}
+
+h1{
+	color: powderblue;
+	writing-mode: vertical-rl;
+	text-orientation: upright;
+	font-size: 75px;
+	margin: 3px;
+}
+
+h2{
+	color: #C71585;
+	writing-mode: vertical-rl;
+	text-orientation: upright;
+	font-size: 75px;
+	margin: 3px;
+}
+
