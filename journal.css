@@ -1,0 +1,52 @@
+body{
+	font-family: Ciutadella;
+	background: linear-gradient(45deg,#355070,#b56576,#eaac8b);
+	background-repeat: no-repeat;
+	background-size: 1000% 1000%;
+	animation: gradient-animation 5s ease infinite;
+	height:	100vh;
+	mix-blend-mode: overlay;
+}
+
+@keyframes gradient-animation {
+0% {
+	background-position: 0% 50%;
+	}
+	50% {
+	background-position: 100% 50%;
+	}
+	100% {
+	background-position: 0% 50%;
+	}
+}
+
+header{
+	font-size: 200px;
+	text-align: center;
+	font-weight: bold;
+	font-style: italic;
+	color: #355070;
+	mix-blend-mode: overlay;
+	text-shadow: 2px 1px darkgray;
+}
+
+.flex{
+	display: flex;
+	flex-direction: column;
+	margin-right: 25%;
+	margin-left: 25%;
+	justify-content: center;
+}
+
+h1{
+	color: #355070;
+	font-size: 45px;
+	text-align: center;
+}
+
+p{
+	color: #355070;
+	text-align: right;
+	font-size: 20px
+
+}
