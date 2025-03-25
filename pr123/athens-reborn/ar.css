@@ -1,0 +1,17 @@
+body{
+	font-family: Ciutadella;
+	background-color: #E0BA96;
+	background-image: url(arbackground.PNG);
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+
+}
+
+header{
+	font-family: Greek-Freak;
+}
+

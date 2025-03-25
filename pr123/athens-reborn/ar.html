@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="ar.css">
+	<title>Athens Reborn</title>
+</head>
+<body>
+	<div class="background"></div>
+
+	<script src="/home-page/jquery-3.7.1.min.js"></script>
+	<script src="ripples.js"></script>
+	<script>
+		$('.background') .ripples({
+			imageUrl: null,
+			resolution: 256,
+			dropRadius: 20,
+			perturbance: 0.04,
+			interactive: true,
+			crossOrigin:''
+		})
+	</script>
+</body>
+</html>
