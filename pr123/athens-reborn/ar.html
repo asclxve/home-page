@@ -7,19 +7,71 @@
 	<title>Athens Reborn</title>
 </head>
 <body>
-	<div class="background"></div>
+	<canvas id="fluid"></canvas>
+	<main>
 
-	<script src="/home-page/jquery-3.7.1.min.js"></script>
-	<script src="ripples.js"></script>
+		<div class="split left">
+			<h1 class="art-deco"> Athens Reborn: <br>The Author Files</h1>
+
+			<p class="art-deco2"> Welcome one and all to see the method behind the madness of worldbuilding! <br>Here you will find more information through the lens of the author rather than the character.</p>
+
+			<div class="button-container">
+				<button class="art-decobutton1" onclick="document.location='../../structure.html'">
+						Back 
+				</button>
+				<img src="athenslogo.png" width="500px">
+
+			</div>
+
+
+		<div class="split right">
+
+			<div class="button-container2">
+				<button class="collapsible">Inspirations</button>
+					<div class="content">
+						test
+					</div>
+
+					
+				<button class="collapsible">Story Premise</button>
+					<div class="content">
+						test
+					</div>
+
+				<button class="collapsible">Click Me 4 Art</button>
+					<div class="content">
+						test
+					</div>
+
+				<button class="collapsible">Why Make This?</button>
+					<div class="content">
+						test
+					</div>
+			</div>
+			
+		</div>
+		
+	</main>
+
+
+	<script src="../../jquery-3.7.1.min.js"></script>
 	<script>
-		$('.background') .ripples({
-			imageUrl: null,
-			resolution: 256,
-			dropRadius: 20,
-			perturbance: 0.04,
-			interactive: true,
-			crossOrigin:''
-		})
+		var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
 	</script>
+	
+	
 </body>
 </html>
