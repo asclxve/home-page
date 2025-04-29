@@ -84,3 +84,32 @@ Athens Reborn Color palette:
  #B7AEAA
  #E0BA96
  #ffffff
+
+
+
+
+ <div class="button-menu">
+            <h1> Navigation</h1>
+            <button class="button" class="left" class="right"> Moodboard</button>
+            <button class="button" class="left" class="right">World Division</button>
+            <button class="button" class="left" class="right"> Sketches & Art</button>
+            <button class="button" class="left" class="right">Characters</button>
+            <button class="button" class="left" class="right" onclick="document.location='index.html'">Homepage</button>
+        </div>
+
+        <div class="prophecy">
+            <h3> The Fates once said...</h3>
+            <p> 
+                In the land of Eldesteele<br>
+                Lies a war of nature and machine...<br><br>
+                Where one side fills the world<br>
+                With  promises of immortality and grandeur <br>
+                Simultaneously polluting nature with obessed, greedy ideologies...
+
+            </p>
+        </div>
+
+        <div class="welcome-box">
+            <h3>Welcome to Eldesteele</h3>
+
+        </div>

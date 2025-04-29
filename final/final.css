@@ -1,0 +1,142 @@
+body{ 
+	font-family: DT Nouveau;
+	background-image: url(pngs/final-background.png);
+	background-repeat: no-repeat;
+	height: 100%;
+	overflow-x: hidden;
+	overflow-y: scroll;
+ }
+
+
+h1{
+	color: #1A251A;
+	font-size: 45px;
+	margin-top: 5px;
+	font-variant: small-caps;
+	font-style: italic;
+	margin-bottom: 0;
+	text-align: center;
+}
+
+
+h3{
+	font-size: 25px;
+	font-style: italic;
+	margin-bottom: 10px;
+}
+
+p{
+	font-size: 15px;
+}
+
+
+
+.grid-box{
+	display: grid;
+	margin-top: 410px;
+	margin-left: 75px;
+	margin-right: 75px;
+	grid-template-columns: [line1] 300px[line2]200px [line3] 200px [line4] 300px [line5]150px;
+	grid-template-rows: [row1] 100px [row2] 100px [row3] 100px [row4] 185px;
+	row-gap: 10px;
+	column-gap: 10px;
+}
+
+
+.button-menu{
+	display: grid;
+	background-color: #435226;
+	mix-blend-mode: overlay;
+	padding: 20px;
+	display: grid;
+	border: 10px ridge #1A251A;
+	grid-column: 1/2;
+	grid-row: 1/5;
+}
+
+
+.button{
+	border: 8.5px solid transparent;
+    outline: 3px solid #89B09D;
+    outline-offset: -6.5px;
+    background: 
+	    linear-gradient(#89B09D 0 0) top,
+	  	linear-gradient(#89B09D 0 0) left, 
+	  	linear-gradient(#89B09D 0 0) bottom,
+	    linear-gradient(#89B09D 0 0) right;
+    background-size: 200% 3px, 3px 200%;
+    background-origin: padding-box;
+    background-repeat: no-repeat;
+    font-family: DT Nouveau;
+    padding: 2px;
+    color: #1A251A;
+    font-size: 15px;
+    font-weight: bold;
+}
+.button:hover{
+	transition: all 1s ease;
+	color: #89B09D;
+	background-color: #1A251A;
+}
+
+.welcome-box{
+	display: grid;
+	grid-column: 4/6;
+	grid-row: 1/2;
+	text-align: right;
+	color: #435226;
+	mix-blend-mode: overlay;
+	
+}
+
+.prophecy1{
+    color: #89B09D;
+    margin-top: 20px;
+    margin-left: 10px;
+    grid-row: 2/3;
+    grid-column: 2/5;
+    mix-blend-mode: overlay;
+    opacity: 75%;
+    animation: blink 5s infinite;
+   
+}
+
+@keyframes blink{
+	0%{
+		opacity: 1;
+	}
+
+	50%{
+		opacity: 0.2;
+	}
+
+	100%{
+		opacity: 1;
+	}
+}
+
+.prophecy2{
+    color: #89B09D;
+    margin-top: 20px;
+    margin-left: 10px;
+    grid-row: 3/5;
+    grid-column: 4/6;
+	mix-blend-mode: overlay;
+    opacity: 75%;
+    animation: blink 5s infinite;
+   
+}
+
+@keyframes blink{
+	0%{
+		opacity: 1;
+	}
+
+	50%{
+		opacity: 0.2;
+	}
+
+	100%{
+		opacity: 1;
+	}
+}
