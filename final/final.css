@@ -2,7 +2,8 @@ body{
 	font-family: DT Nouveau;
 	background-image: url(pngs/final-background.png);
 	background-repeat: no-repeat;
-	height: 100%;
+	max-height: 100%;
+	max-width: 100%;
 	overflow-x: hidden;
 	overflow-y: scroll;
  }
