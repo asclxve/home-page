@@ -1,12 +1,22 @@
+@font-face{
+	font-family: DT Nouveau;
+	src: url(dtnouveau-regular.tff);
+}
+
 body{ 
 	font-family: DT Nouveau;
-	background-image: url(pngs/final-background.png);
+	background: linear-gradient(180deg, #89B09D, #1A251A);
+	background-size: 100% 100%;
 	background-repeat: no-repeat;
-	max-height: auto;
+	max-height: 100%;
 	max-width: 100%;
 	overflow: scroll;
  }
 
+header{
+	display: block;
+	border: 1px ridge black;
+}
 
 h1{
 	color: #1A251A;
@@ -33,9 +43,6 @@ p{
 
 .grid-box{
 	display: grid;
-	margin-top: 410px;
-	margin-left: 75px;
-	margin-right: 75px;
 	grid-template-columns: [line1] 300px[line2]200px [line3] 200px [line4] 300px [line5]150px;
 	grid-template-rows: [row1] 100px [row2] 100px [row3] 100px [row4] 185px;
 	row-gap: 10px;
