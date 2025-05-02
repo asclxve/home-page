@@ -178,3 +178,145 @@ Athens Reborn Color palette:
 
     </div>
 
+
+<div class="button-menu">
+            <h1> Navigation</h1>
+            <button class="button" class="left" class="right" onclick="window.open('https://app.milanote.com/1TKoYZ15hEDf3W?p=80ryN2k8RO6')"> Moodboard</button>
+            <button class="button" class="left" class="right" onclick="document.location='final/world.html'">World Division</button>
+            <button class="button" class="left" class="right" onclick="document.location='final/sketch.html'"> Sketches, Planning, & Art</button>
+            <button class="button" class="left" class="right" onclick="document.location='final/char.html'">Characters</button>
+            <button class="button" class="left" class="right" onclick="document.location='index.html'">Homepage</button>
+        </div>
+
+
+h1{
+    color: #1A251A;
+    font-size: 45px;
+    margin-top: 5px;
+    font-variant: small-caps;
+    font-style: italic;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+
+h3{
+    font-size: 25px;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+p{
+    font-size: 15px;
+}
+
+.header{
+    
+
+}
+
+
+
+.grid-box{
+    display: grid;
+    grid-template-columns: [line1] 350px[line2]200px;
+    grid-template-rows: [row1] 100px [row2] 100px [row3] 100px [row4] 185px;
+    row-gap: 10px;
+    column-gap: 10px;
+}
+
+
+.button-menu{
+    display: grid;
+    background-color: #435226;
+    mix-blend-mode: overlay;
+    padding: 20px;
+    display: grid;
+    border: 10px ridge #1A251A;
+    grid-column: 1/2;
+    grid-row: 2/5;
+}
+
+
+
+
+
+        .button{
+    border: 8.5px solid transparent;
+    outline: 3px solid #89B09D;
+    outline-offset: -6.5px;
+    background: 
+        linear-gradient(#89B09D 0 0) top,
+        linear-gradient(#89B09D 0 0) left, 
+        linear-gradient(#89B09D 0 0) bottom,
+        linear-gradient(#89B09D 0 0) right;
+    background-size: 200% 3px, 3px 200%;
+    background-origin: padding-box;
+    background-repeat: no-repeat;
+    font-family: DT Nouveau;
+    padding: 2px;
+    color: #1A251A;
+    font-size: 15px;
+    font-weight: bold;
+}
+.button:hover{
+    transition: all 1s ease;
+    color: #89B09D;
+    background-color: #1A251A;
+}
+
+.welcome-box{
+    display: grid;
+    text-align: right;
+    color: #435226;
+    mix-blend-mode: overlay;
+    
+}
+
+.prophecy1{
+    color: #89B09D;
+    margin-top: 20px;
+    margin-left: 10px;
+    mix-blend-mode: overlay;
+    opacity: 75%;
+    animation: blink 5s infinite;
+   
+}
+
+@keyframes blink{
+    0%{
+        opacity: 1;
+    }
+
+    50%{
+        opacity: 0.2;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
+
+.prophecy2{
+    color: #89B09D;
+    margin-top: 20px;
+    margin-left: 10px;
+    mix-blend-mode: overlay;
+    opacity: 75%;
+    animation: blink 5s infinite;
+   
+}
+
+@keyframes blink{
+    0%{
+        opacity: 1;
+    }
+
+    50%{
+        opacity: 0.2;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}

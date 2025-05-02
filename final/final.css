@@ -1,133 +1,176 @@
 body{ 
 	font-family: DT Nouveau;
 	background: linear-gradient(180deg, #89B09D, #1A251A);
-	background-size: 100% 100%;
 	background-repeat: no-repeat;
-	max-height: 100vh;
-	max-width: 100%;
+	height: 100%;
 	overflow: scroll;
  }
 
-h1{
-	color: #1A251A;
-	font-size: 45px;
-	margin-top: 5px;
-	font-variant: small-caps;
-	font-style: italic;
-	margin-bottom: 0;
+ h1{
+ 	text-align: center;
+ 	font-size: 50px;
+ }
+
+ h3{
+ 	font-size: 25px;
+ 	margin-bottom: 5px;
+ }
+
+.imgset{
+	display: grid;
+	grid-area: header;
+	width: 100%;
+}
+
+.header{
 	text-align: center;
-}
-
-
-h3{
-	font-size: 25px;
+	display: grid;
+	grid-area: header;
+	font-size: 6.25vw;
+	font-weight: bolder;
+	margin-top: 5%;
 	font-style: italic;
-	margin-bottom: 10px;
+	color: #1A251A;
+	mix-blend-mode: overlay;
 }
 
-p{
-	font-size: 15px;
+.top{
+	display: grid;
+	grid-area: top;
+	width: 100%;
+	mix-blend-mode: overlay;
+}
+
+.left{
+	display: grid;
+	grid-area: border1;
+	width: 100%;
+	mix-blend-mode: overlay;
+}
+
+.right{
+	display: grid;
+	grid-area: border2;
+	width: 100%;
+	mix-blend-mode: overlay;
+}
+
+.bottom{
+	display: grid;
+	grid-area: bottom;
+	width: 100%;
+	mix-blend-mode: overlay;
 }
 
 
 
 .grid-box{
-	display: grid;
-	grid-template-columns: [line1] 300px[line2]200px [line3] 200px;
-	grid-template-rows: [row1] 100px [row2] 100px [row3] 100px [row4] 185px;
-	row-gap: 10px;
-	column-gap: 10px;
-}
+    display: grid;
+    grid-template-columns: repeat(6, auto-fit, 1fr);
+    grid-template-rows: repeat(7, auto-fill, 1fr);
+    row-gap: 10px;
+    column-gap: 15px;
+    grid-template-areas:
+    	"header header header header header header"
+    	". top top top top ."
+    	"border1 menu .  intro intro border2"
+    	"border1 menu body1 body1 . border2"
+    	"border1 menu .  body2 body2 border2"
+    	"border1 menu .  footer footer border2"
+    	". bottom bottom bottom bottom .";
 
-
-.button-menu{
-	display: grid;
-	background-color: #435226;
-	mix-blend-mode: overlay;
-	padding: 20px;
-	display: grid;
-	border: 10px ridge #1A251A;
-	grid-column: 1/2;
-	grid-row: 1/5;
-}
-
-
-.button{
-	border: 8.5px solid transparent;
-    outline: 3px solid #89B09D;
-    outline-offset: -6.5px;
-    background: 
-	    linear-gradient(#89B09D 0 0) top,
-	  	linear-gradient(#89B09D 0 0) left, 
-	  	linear-gradient(#89B09D 0 0) bottom,
-	    linear-gradient(#89B09D 0 0) right;
-    background-size: 200% 3px, 3px 200%;
-    background-origin: padding-box;
-    background-repeat: no-repeat;
-    font-family: DT Nouveau;
-    padding: 2px;
-    color: #1A251A;
-    font-size: 15px;
-    font-weight: bold;
-}
-.button:hover{
-	transition: all 1s ease;
-	color: #89B09D;
-	background-color: #1A251A;
 }
 
 .welcome-box{
 	display: grid;
-	text-align: right;
-	color: #435226;
-	mix-blend-mode: overlay;
-	
+	grid-area: intro;
+    text-align: right;
+    color: #435226;
+    mix-blend-mode: overlay;
+}
+
+.button-menu{
+    display: grid;
+    background-color: #435226;
+    mix-blend-mode: overlay;
+    padding: 10px;
+    display: grid;
+    border: 10px ridge #1A251A;
+    grid-area: menu;
+    margin-left: 0;
+}
+
+.button{
+    border: 8.5px solid transparent;
+    outline: 3px solid #89B09D;
+    outline-offset: -6.5px;
+    background: 
+        linear-gradient(#89B09D 0 0) top,
+        linear-gradient(#89B09D 0 0) left, 
+        linear-gradient(#89B09D 0 0) bottom,
+        linear-gradient(#89B09D 0 0) right;
+    background-size: 200% 3px, 3px 200%;
+    background-origin: padding-box;
+    background-repeat: no-repeat;
+    font-family: DT Nouveau;
+    padding: 3px;
+    color: #1A251A;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.button:hover{
+    transition: all 1s ease;
+    color: #89B09D;
+    background-color: #1A251A;
 }
 
 .prophecy1{
     color: #89B09D;
-    margin-top: 20px;
-    margin-left: 10px;
     mix-blend-mode: overlay;
     opacity: 75%;
     animation: blink 5s infinite;
+    display: grid;
+    grid-area: body1;
+
    
 }
 
 @keyframes blink{
-	0%{
-		opacity: 1;
-	}
+    0%{
+        opacity: 1;
+    }
 
-	50%{
-		opacity: 0.2;
-	}
+    50%{
+        opacity: 0.2;
+    }
 
-	100%{
-		opacity: 1;
-	}
+    100%{
+        opacity: 1;
+    }
 }
 
 .prophecy2{
     color: #89B09D;
     margin-top: 20px;
     margin-left: 10px;
-	mix-blend-mode: overlay;
+    mix-blend-mode: overlay;
     opacity: 75%;
     animation: blink 5s infinite;
+    grid-area: body2;
    
 }
 
 @keyframes blink{
-	0%{
-		opacity: 1;
-	}
+    0%{
+        opacity: 1;
+    }
 
-	50%{
-		opacity: 0.2;
-	}
+    50%{
+        opacity: 0.2;
+    }
 
-	100%{
-		opacity: 1;
-	}
+    100%{
+        opacity: 1;
+    }
 }
