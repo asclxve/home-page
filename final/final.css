@@ -1,26 +1,12 @@
-@font-face{
-	font-family: 'MyWebFont' DT Nouveau;
-	src: url('WebFont.eot');
-	src: url('WebFont.eot?#iefix') format('embedded-opentype'),
-	url('WebFont.woff') format('woff'),
-	url('WebFont.ttf') format('truetype'),
-	url('WebFont.svg#webfont') format('svg');
-}
-
 body{ 
 	font-family: DT Nouveau;
 	background: linear-gradient(180deg, #89B09D, #1A251A);
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
-	max-height: 100%;
+	max-height: 100vh;
 	max-width: 100%;
 	overflow: scroll;
  }
-
-header{
-	display: block;
-	border: 1px ridge black;
-}
 
 h1{
 	color: #1A251A;
@@ -47,7 +33,7 @@ p{
 
 .grid-box{
 	display: grid;
-	grid-template-columns: [line1] 300px[line2]200px [line3] 200px [line4] 300px [line5]150px;
+	grid-template-columns: [line1] 300px[line2]200px [line3] 200px;
 	grid-template-rows: [row1] 100px [row2] 100px [row3] 100px [row4] 185px;
 	row-gap: 10px;
 	column-gap: 10px;
@@ -92,8 +78,6 @@ p{
 
 .welcome-box{
 	display: grid;
-	grid-column: 4/6;
-	grid-row: 1/2;
 	text-align: right;
 	color: #435226;
 	mix-blend-mode: overlay;
@@ -104,8 +88,6 @@ p{
     color: #89B09D;
     margin-top: 20px;
     margin-left: 10px;
-    grid-row: 2/3;
-    grid-column: 2/5;
     mix-blend-mode: overlay;
     opacity: 75%;
     animation: blink 5s infinite;
@@ -130,8 +112,6 @@ p{
     color: #89B09D;
     margin-top: 20px;
     margin-left: 10px;
-    grid-row: 3/5;
-    grid-column: 4/6;
 	mix-blend-mode: overlay;
     opacity: 75%;
     animation: blink 5s infinite;

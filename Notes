@@ -71,6 +71,11 @@ p{
     </header>
 
 
+<div>
+        <img style="width: 100%; height: 100%;mix-blend-mode: overlay;" src="final/pngs/Header.png" >
+        <img style="width: 100%; height: 100%;mix-blend-mode: overlay;" src="final/pngs/Top.png" >
+        <img style="width: 100%; height: 100%;mix-blend-mode: overlay;" src="final/pngs/Bottom.png" >
+    </div>
 
 
 
@@ -86,7 +91,19 @@ Athens Reborn Color palette:
  #ffffff
 
 
+.prophecy{
+    color: #89B09D;
+    margin-top: 20px;
+    margin-left: 10px;
+    grid-row: 4/5;
+    grid-column: 1/2;
+    text-wrap: wrap;
+}
 
+.welcome-box{
+    grid-row: 1/4;
+    grid-column: 3/4;
+}
 
  <div class="button-menu">
             <h1> Navigation</h1>
@@ -113,3 +130,51 @@ Athens Reborn Color palette:
             <h3>Welcome to Eldesteele</h3>
 
         </div>
+
+
+
+ .Layer_0 {
+  background-image: url("Layer 0.png");
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1512px;
+  height: 1644px;
+  z-index: 1;
+}
+
+
+
+
+
+ <div class="welcome-box">
+            <h3> Welcome to Eldesteele~</h3>
+            <p> The latest edition to the growing list of worldbuilding projects...I don't think there's an end in sight for it now that I think about it. I do know that I'm going to probably be updating this over the summer, because I really do like the concept I came up with for this specific world. <br> :D</p>
+            <br><br>
+        </div>
+
+        <div class="prophecy1">
+             <h3> The Fates once said...</h3>
+            <p> 
+                In the land of Eldesteele<br>
+                Lies a war of nature and machine...<br><br>
+                Where one side fills the world<br>
+                With  promises of immortality and grandeur <br>
+                Simultaneously polluting nature with obessed, <br>greedy ideologies...<br><br>
+                A never ending cycle of corruption and darkness.
+
+            </p>
+        </div>
+
+        <div class="prophecy2">
+            <p>
+                Where another side is tethered to the lands of the Mother Vale...<br>
+                For they believe in the cycles of life and the word of the Fates<br><br>
+                Believe in the fact that nature will provide all, not the ideas of man.<br><br>
+                A strict belief unable to be forced out of their paths in fact. Or so they believe...
+
+            </p>
+        </div>
+
+    </div>
+
