@@ -241,7 +241,7 @@ p{
 
 
 
-        .button{
+.button{
     border: 8.5px solid transparent;
     outline: 3px solid #89B09D;
     outline-offset: -6.5px;

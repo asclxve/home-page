@@ -1,3 +1,12 @@
+@font-face {
+    font-family: 'DT Nouveau';
+    src: url('DTNouveau-Regular.woff2') format('woff2'),
+        url('DTNouveau-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 body{
 	font-family: DT Nouveau;
 
@@ -57,16 +66,16 @@ header{
 
 .info-gridav{
 	display: grid;
-	grid-template-rows: [row1] 50px [row2] 250px [row3] 250px [row4] 250px;
-	grid-template-columns: [line1] 300px [line2] 400px ;
+	grid-template-rows: repeat(4, auto-fit, 1fr);
+	grid-template-columns: repeat(5, auto-fill, 1fr);
 	margin-top: 5px;
 
 }
 
 .info-gridrb{
 	display: grid;
-	grid-template-rows: [row1] 250px [row2] 250px [row3] 250px [row4] 250px;
-	grid-template-columns: [line1] 250px [line2] 250px ;
+	grid-template-rows: repeat(4, auto-fit, 1fr);
+	grid-template-columns: repeat(5, auto-fill, 1fr);
 	margin-top: 5px;
 }
 

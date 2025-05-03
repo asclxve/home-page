@@ -1,3 +1,12 @@
+@font-face {
+    font-family: 'DT Nouveau';
+    src: url('DTNouveau-Regular.woff2') format('woff2'),
+        url('DTNouveau-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 body{ 
 	font-family: DT Nouveau;
 	background: linear-gradient(180deg, #89B09D, #1A251A);
