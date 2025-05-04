@@ -1,3 +1,95 @@
+@font-face {
+    font-family: 'Ciutadella';
+    src: url('Ciutadella/Ciutadella-BoldItalic.woff2') format('woff2'),
+        url('Ciutadella/Ciutadella-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ciutadella';
+    src: url('Ciutadella/Ciutadella-LightItalic.woff2') format('woff2'),
+        url('Ciutadella/Ciutadella-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ciutadella';
+    src: url('Ciutadella/Ciutadella-Bold.woff2') format('woff2'),
+        url('Ciutadella/Ciutadella-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ciutadella';
+    src: url('Ciutadella/Ciutadella-Light.woff2') format('woff2'),
+        url('Ciutadella/Ciutadella-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ciutadella';
+    src: url('Ciutadella/Ciutadella-SemiBoldItalic.woff2') format('woff2'),
+        url('Ciutadella/Ciutadella-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ciutadella';
+    src: url('Ciutadella/Ciutadella-MediumItalic.woff2') format('woff2'),
+        url('Ciutadella/Ciutadella-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ciutadella';
+    src: url('Ciutadella/Ciutadella-Medium.woff2') format('woff2'),
+        url('Ciutadella/Ciutadella-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ciutadella';
+    src: url('Ciutadella/Ciutadella-SemiBold.woff2') format('woff2'),
+        url('Ciutadella/Ciutadella-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ciutadella';
+    src: url('Ciutadella/Ciutadella-Regular.woff2') format('woff2'),
+        url('Ciutadella/Ciutadella-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Greek-Freak';
+    src: url('GreekFreakRegular.woff2') format('woff2'),
+        url('GreekFreakRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
 body{
 	font-family: Ciutadella;
 	
